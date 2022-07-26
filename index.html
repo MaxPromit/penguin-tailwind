@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin:'#FFFBF0',
+                jacketprice:'#FABE4C',
+              }
+            }
+          }
+        }
+      </script>
+
+<script src="https://kit.fontawesome.com/7909fd8855.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="bg-penguin pb-72 pt-11">
+  <div class="container mx-auto sm:flex items-center justify-around">
+ <div class="space-y-4">
+  <h1 class="text-2xl sm:text-5xl font-bold uppercase">
+    <span class="text-yellow-400">Be The Penguin</span>
+    <br>
+    <span>Of Winter</span>
+  </h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+  <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+ </div>
+ <div class="pt-8 sm:pt-0">
+  <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
+ </div>
+  </div>
+</header>
+
+<!-- Woman Jacket -->
+<section class="container mx-auto pb-24">
+  <h2 class="text-5xl">Woman Jacket</h2>
+<div class="grid  md:grid-cols-2 lg:grid-cols-3  gap-7">
+      <!-- jacket 1 -->
+      <div class="p-4 shadow-lg rounded-xl">
+        <div class="p-5 bg-slate-100 rounded-xl">
+         <img src="images/jacket-1.png" alt="">
+        </div>
+           <h3 class="text-3xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi consectetur quis!</h3>
+        
+      <div class="flex justify-between">
+       <h2 class="text-5xl text-jacketprice font-semibold">$345</h2>
+       <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+      </div>
+    </div>
+      <!-- jacket 2 -->
+      <div class="p-4 shadow-lg rounded-xl">
+        <div class="p-5 bg-slate-100 rounded-xl">
+         <img src="images/jacket-2.png" alt="">
+        </div>
+           <h3 class="text-3xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi consectetur quis!</h3>
+        
+      <div class="flex justify-between">
+       <h2 class="text-5xl text-jacketprice font-semibold">$745</h2>
+       <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+      </div>
+    </div>
+      <!-- jacket 3 -->
+      <div class="p-4 shadow-lg rounded-xl">
+        <div class="p-5 bg-slate-100 rounded-xl">
+         <img src="images/jacket-3.png" alt="">
+        </div>
+           <h3 class="text-3xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi consectetur quis!</h3>
+       
+      <div class="flex justify-between">
+       <h2 class="text-5xl text-jacketprice font-semibold">$565</h2>
+       <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+      </div>
+    </div>
+</div>
+
+</section>
+
+<!-- Man Jacket -->
+<section class="container mx-auto pb-24">
+  <h2 class="text-5xl">Man Jacket</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+      <!-- jacket 1 -->
+      <div class="p-4 shadow-lg rounded-xl">
+        <div class="p-5 bg-slate-100 rounded-xl">
+         <img src="images/jacket-4.png" alt="">
+        </div>
+           <h3 class="text-3xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi consectetur quis!</h3>
+        
+      <div class="flex justify-between">
+       <h2 class="text-5xl text-jacketprice font-semibold">$345</h2>
+       <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+      </div>
+    </div>
+      <!-- jacket 2 -->
+      <div class="p-4 shadow-lg rounded-xl">
+        <div class="p-5 bg-slate-100 rounded-xl">
+         <img src="images/jacket-5.png" alt="">
+        </div>
+           <h3 class="text-3xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi consectetur quis!</h3>
+        
+      <div class="flex justify-between">
+       <h2 class="text-5xl text-jacketprice font-semibold">$745</h2>
+       <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+      </div>
+    </div>
+      <!-- jacket 3 -->
+      <div class="p-4 shadow-lg rounded-xl">
+        <div class="p-5 bg-slate-100 rounded-xl">
+         <img src="images/jacket-6.png" alt="">
+        </div>
+           <h3 class="text-3xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sequi consectetur quis!</h3>
+       
+      <div class="flex justify-between">
+       <h2 class="text-5xl text-jacketprice font-semibold">$565</h2>
+       <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl font-semibold text-white"><i class="fa-solid fa-cart-arrow-down"></i> Buy Now</button>
+      </div>
+    </div>
+</div>
+
+</section>
+
+<section>
+  <div class="grid grid-cols-2 gap-5">
+    <div class="rounded-lg flex bg-slate-200 p-6">
+      <img class="w-20 h-20" src="images/house.png" alt="">
+      <div class="ml-3">
+        <h3 class="text-2xl">Find The Perfect Fit</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="bg-slate-500 row-span-3">
+      <img src="images/shopping.png" alt="">
+    </div>
+    <div class="rounded-lg flex bg-slate-200 p-6">
+      <img class="w-20 h-20" src="images/house.png" alt="">
+      <div class="ml-3">
+        <h3 class="text-2xl">Find The Perfect Fit</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+ 
+    <div class="rounded-lg flex bg-slate-200 p-6">
+      <img class="w-20 h-20" src="images/house.png" alt="">
+      <div>
+        <h3 class="text-2xl">Find The Perfect Fit</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+   
+
+  </div>
+</section>
+</body>
+</html>
